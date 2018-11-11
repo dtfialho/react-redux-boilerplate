@@ -5,7 +5,6 @@ class Layout extends Component {
   render() {
     return (
       <Fragment>
-        <Header />
         { this.props.children }
       </Fragment>
     );
