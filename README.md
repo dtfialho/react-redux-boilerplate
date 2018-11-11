@@ -16,7 +16,7 @@ $ npm i
 $ npm start
 ```
 
-## Comandos 
+## Commands 
 * **npm start**: Runs a dev server in [http://localhost:8000](http://localhost:8000).
 * **npm build**: Build the project for production.
 * **npm production**: Run as express server for production.
