@@ -6,8 +6,8 @@
     "start": "webpack-dev-server --progress --colors --config ./webpack/webpack.dev.config.js",
     "build": "rimraf dist && webpack --progress --colors --config ./webpack/webpack.prod.config.js",
     "production": "set NODE_ENV=production && node index.js",
-    "test": "jest",
     "lint": "./node_modules/.bin/eslint src",
+    "test": "jest",
     "coverage": "jest --coverage",
     "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls"
   },
