@@ -19,7 +19,6 @@ $ npm start
 ## Commands 
 * **npm start**: Runs a dev server in [http://localhost:8000](http://localhost:8000).
 * **npm build**: Build the project for production.
-* **npm production**: Run as express server for production.
 * **npm run lint**: Search for lint errors.
 * **npm test**: Run tests.
 * **npm run coverage**: Run tests with coverage.
